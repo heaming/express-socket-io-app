@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>채팅😊</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+
+    <div class="chat">
+        <div id="sidebar" class="chat__sidebar"></div>
+        <div class="chat__main">
+            <div id="messages" class="chat__messages"></div>
+            <div class="form__container">
+                <form>
+                    <label>
+                        <input name="message"
+                               placeholder="메시지를 입력하세요."
+                               required/>
+                    </label>
+                    <button>전송</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/chat.js"></script>
+</body>
+</html>
